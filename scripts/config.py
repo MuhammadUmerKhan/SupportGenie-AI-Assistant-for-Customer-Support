@@ -12,7 +12,7 @@ try:
     # ✅ Load API Key & Model Name
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-    MODEL_NAME = "qwen/qwen3-32b"
+    MODEL_NAME = "openai/gpt-oss-120b"
 
     # ✅ Load FAQ File Path
     FAQ_PATH = os.path.join("..", "FAQS", "BankFAQs.csv")  # Ensure path is correct

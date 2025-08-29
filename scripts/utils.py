@@ -58,8 +58,8 @@ def get_cached_llm_response(user_input):
     """Cache LLM responses to avoid redundant API calls."""
     llm = ChatGroq(
         temperature=0,
-        groq_api_key=CONFIG.GROK_API_KEY,
-        model_name="qwen/qwen3-32b"
+        groq_api_key=CONFIG.GROQ_API_KEY,
+        model_name=CONFIG.MODEL_NAME
     )
     response = llm.invoke(user_input)
     return remove_think_tags(response.content.strip())
