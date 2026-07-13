@@ -1,6 +1,6 @@
 # 📌 **SupportGenie: Dual Fine-Tuned LLM Customer Support Chatbot** 🤖
 
-![ai_chatbot.png](https://www.addevice.io/storage/ckeditor/uploads/images/64d0d72b8dcde_the.role.of.chatbots.and.humans.in.customer.support.1.png)
+![SupportGenie Hero Image](assets/hero-thumbnail.png)
 
 ## 🚀 **Project Overview**
 In today's fast-paced digital world, businesses need **efficient and scalable** customer support solutions. **SupportGenie** leverages **AI-powered chatbots**, **FAQ retrieval**, **sentiment analysis**, **fine-tuned LLMs**, and **interactive analytics dashboards** to deliver exceptional customer experiences. 🌟
@@ -40,7 +40,10 @@ We address this with:
 
 ---
 
-## 🛠️ **Solution Approach**
+## 🛠️ **Solution Approach & Architecture**
+
+![SupportGenie Architecture](assets/whiteboard-architecture.png)
+
 SupportGenie uses **AI, NLP, and analytics** to automate and enhance customer interactions: 🎉
 
 1. **FAQ-Based Chatbot with Fine-Tuned LLMs** 🗣️  
